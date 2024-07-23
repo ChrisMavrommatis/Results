@@ -119,8 +119,6 @@ public async Task<OneOf<Ok, NotFound, Conflict, Error>> ChangePasswordAsync(Chan
 ```
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
