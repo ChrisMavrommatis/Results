@@ -10,12 +10,14 @@
 		<Authors>Chris Mavrommatis</Authors>
 		<PackageProjectUrl>https://github.com/ChrisMavrommatis/Results</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/ChrisMavrommatis/Results</RepositoryUrl>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<AssemblyName>ChrisMavrommatis.Results</AssemblyName>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<RootNamespace>ChrisMavrommatis.Results</RootNamespace>
 		<RepositoryType>git</RepositoryType>
+		<Description>A library providing utility types and for handling results in a clean and expressive manner.</Description>
+		<PackageTags>result;union;oneof;functional;utility</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
