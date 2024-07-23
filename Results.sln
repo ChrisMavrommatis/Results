@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 17
+VisualStudioVersion = 17.11.35111.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Results", "src\Results\Results.csproj", "{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80A42A6F-41A9-49E6-B8EE-D6780514A68E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{54D431D2-B327-4CF4-A35C-7B6C63CD7CB9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F0D7C22-D830-4AAA-9FAA-31F2DC2F5E8F} = {80A42A6F-41A9-49E6-B8EE-D6780514A68E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C03B2F-194B-4EC5-8AAC-83CF27B5B620}
+	EndGlobalSection
+EndGlobal

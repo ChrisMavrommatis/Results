@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>ChrisMavrommatis.Results</PackageId>
+		<Title>ChrisMavrommatis.Results</Title>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Chris Mavrommatis</Authors>
+		<PackageProjectUrl>https://github.com/ChrisMavrommatis/Results</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ChrisMavrommatis/Results</RepositoryUrl>
+		<Version>1.0.0</Version>
+		<AssemblyName>ChrisMavrommatis.Results</AssemblyName>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<RootNamespace>ChrisMavrommatis.Results</RootNamespace>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
