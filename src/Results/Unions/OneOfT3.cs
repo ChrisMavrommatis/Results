@@ -3,17 +3,17 @@
 public readonly struct OneOf<T0, T1, T2, T3> : IOneOf
 {
     private readonly OneOfValue _enum;
-    private readonly T0 _t0;
-    private readonly T1 _t1;
-    private readonly T2 _t2;
-    private readonly T3 _t3;
+    private readonly T0? _t0;
+    private readonly T1? _t1;
+    private readonly T2? _t2;
+    private readonly T3? _t3;
 
     private OneOf(
         OneOfValue oneOfValue,
-        T0 t0 = default,
-        T1 t1 = default,
-        T2 t2 = default,
-        T3 t3 = default
+        T0? t0 = default,
+        T1? t1 = default,
+        T2? t2 = default,
+        T3? t3 = default
         )
     {
         _enum = oneOfValue;
@@ -64,10 +64,10 @@ public readonly struct OneOf<T0, T1, T2, T3> : IOneOf
     {
         return _enum switch
         {
-            OneOfValue.T0 => f0(_t0),
-            OneOfValue.T1 => f1(_t1),
-            OneOfValue.T2 => f2(_t2),
-            OneOfValue.T3 => f3(_t3),
+            OneOfValue.T0 => f0(_t0!),
+            OneOfValue.T1 => f1(_t1!),
+            OneOfValue.T2 => f2(_t2!),
+            OneOfValue.T3 => f3(_t3!),
             _ => throw new InvalidOperationException()
         };
 

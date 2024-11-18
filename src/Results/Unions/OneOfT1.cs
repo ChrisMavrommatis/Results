@@ -3,13 +3,13 @@
 public readonly struct OneOf<T0, T1> : IOneOf
 {
     private readonly OneOfValue _enum;
-    private readonly T0 _t0;
-    private readonly T1 _t1;
+    private readonly T0? _t0;
+    private readonly T1? _t1;
 
     private OneOf(
         OneOfValue oneOfValue,
-        T0 t0 = default,
-        T1 t1 = default
+        T0? t0 = default,
+        T1? t1 = default
         )
     {
         _enum = oneOfValue;
@@ -50,8 +50,8 @@ public readonly struct OneOf<T0, T1> : IOneOf
     {
         return _enum switch
         {
-            OneOfValue.T0 => f0(_t0),
-            OneOfValue.T1 => f1(_t1),
+            OneOfValue.T0 => f0(_t0!),
+            OneOfValue.T1 => f1(_t1!),
             _ => throw new InvalidOperationException($"enum {_enum} is not a valid state for ResultOneOf<T0, T1>")
         };
 

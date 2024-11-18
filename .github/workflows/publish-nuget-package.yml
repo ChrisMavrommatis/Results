@@ -19,11 +19,8 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
-      - name: Build .Net 8.0
-        run: dotnet build --configuration Release --no-restore --framework net8.0
-
-      - name: Build .Net 9.0
-        run: dotnet build --configuration Release --no-restore --framework net9.0
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
 
       - name: Pack
         run: dotnet pack  --configuration Release --no-build --output ./nupkgs
